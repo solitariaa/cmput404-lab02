@@ -1,0 +1,8 @@
+Q1: By the socket.SOCK_STREAM
+Q2: For the server, it binds to a client's host and port and listen for incoming connection, when a new connection comes in it will accept it.
+    For the client, it connects to the server by ip and port.
+Q3: By the socket.SO_REUSEADDR
+Q4: I get "Connect by ('127.0.0.1',55280), which is the IP and port of the client
+Q5: I use the command 'echo "Foobar"|nc localhost 8001 -p 1'
+    The server returns "Connected by ('127.0.0.1',1)"
+Q6: https://github.com/solitariaa/cmput404-lab2
